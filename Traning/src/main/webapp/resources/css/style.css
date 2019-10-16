@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+html {
+  font-family: "Oswald"; 
+   background:url(https://images8.alphacoders.com/861/861613.jpg)no-repeat center center fixed;
+	 background-color: #ffffff;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header {
+ height:var(--nav-height);
+    position:relative;
+    z-index:1000;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    background:#100e17;
+    border-bottom:1px solid #201c29;
+    -webkit-animation:none;
+    animation:none
+}
+h1{
+	font-family: "calibri";
+	color:#ffffff;
+}
+#logo {
+  float: left;
+  font-size: 3em;
+  margin: 0;
+  padding: .4em;
+  text-decoration: none;
+  color: #ffffff;
+  border-right: 1px solid #e3e3e8;
+  transition: .5s all;
+}
+#logo:hover {
+  color:#00fbff;
+}
+nav {
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2.2em 2em;
+}
+nav ul li {
+  display: inline;
+  padding: 0 .9em;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.3em;
+  transition: .5s color;
+  color:#ffffff;
+}
+nav ul li a:hover {
+/*   border-bottom: 3px solid #333; */
+}
+#lalu:hover {
+  color: #ffff00;
+  border-bottom: 5px solid #00ff22;
+}
+.layer1{
+	
+	background-color:rgba(192,192,192,0.3);
+}
+table {
+  border-collapse: collapse;
+   position:center;
+    margin-left:auto; 
+    margin-right:auto;
+}
+th{
+	font-family: "calibri";
+	color:#ffffff;
+	font-size:50px;
+}
+
+table, td, th {
+  border: 1px solid black;
+  border-color: transparent;
+}
+.current{
+	border-bottom: 5px solid #00ff22;
+}
